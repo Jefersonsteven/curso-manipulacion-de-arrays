@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto forEach</title>
+</head>
+<body>
+    <div id="app">
+        <ul id="list">
+
+        </ul>
+
+        <script>
+            const tasks = [
+                'Levantarse',
+                'Sepillarse',
+                'Desayunar',
+                'Estudiar',
+                'Revision de Tarea Anterior',
+                'Clase del dia',
+                'Realizar Homework del dia',
+                'PP',
+                'SUP'
+            ]
+
+            const list = document.getElementById('list');
+
+            tasks.forEach(task => {
+                app.innerHTML += `<li><label><input type="checkbox">${task}</label></li>`
+            })
+        </script>
+    </div>
+</body>
+</html>
