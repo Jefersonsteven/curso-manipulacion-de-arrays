@@ -1,4 +1,4 @@
-const letters = ['a', 'b', 'c'];
+const letters = ['a', 'b', 'c', 'd'];
 
 const newLetters = [];
 
