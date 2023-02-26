@@ -27,3 +27,8 @@ const search = (word, data) => {
 
 console.log(search('Ana', users));
 console.log(search('Carlos', users));
+
+const mayorQue = users.filter(user => user.edad >= 18);
+const menorQue = users.filter(user => user.edad < 18);
+console.log(mayorQue);
+console.log(menorQue);
